@@ -42,7 +42,7 @@ docker
 - Review the Dockerfile to understand how the image is built.
 - Clean up containers and images after testing:
   ```bash
-docker ps -a
-docker rm <container-id>
-docker rmi <image-id>
+    docker ps -a
+    docker rm <container-id>
+    docker rmi <image-id>
 ```
