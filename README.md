@@ -43,6 +43,8 @@ docker
 - Clean up containers and images after testing:
   ```bash
     docker ps -a
+    docker stop <container-id>
     docker rm <container-id>
+    docker images
     docker rmi <image-id>
     ```
